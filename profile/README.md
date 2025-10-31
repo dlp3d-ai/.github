@@ -1,13 +1,38 @@
-# Overview
+# Digital Life Project Series
 
-Digital Life Project (DLP) is a research series bridging AI and 3D virtual embodiment,evolving from Digital Life Project (CVPR 2024) to Digital Life Project 2 (SIGGRAPH Asia 2025 Real-Time Live!). This organization hosts the fully open-source code and assets for [Digital Life Project 2 (DLP3D)](https://github.com/dlp3d-ai/dlp3d.ai).
+Digital Life Project (DLP) is a research series bridging AI and 3D virtual embodiment, evolving from Digital Life Project (CVPR 2024) to Digital Life Project 2 (SIGGRAPH Asia 2025 Real-Time Live!). This organization hosts the fully open-source code and assets for [Digital Life Project 2 (DLP3D)](https://github.com/dlp3d-ai/dlp3d.ai).
 
 
 # Digital Life Project 2 (2025)
 
+<div align="center">
+    <img src="../assets/dlp3d/banner.jpg"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+**SIGGRAPH Asia 2025 (Real-Time Live!), Hong Kong**
+
+</div>
+
+<p align="center">
+  <a href="https://dlp3d.ai/"><img src="https://img.shields.io/badge/Try%20it-dlp3d.ai-232C4B?style=flat"></a>
+  <a href="https://x.com/dlp3d_ai"><img src="https://img.shields.io/badge/Digital%20Life%20Project-%232d2e30?style=flat&logo=x&labelColor=%23101419&color=%232d2e30"></a>
+  <a href="https://www.xiaohongshu.com/user/profile/678df66a000000000d008dd1"><img src="https://img.shields.io/badge/Digital%20Life%20Project-%232d2e30?style=flat&logo=xiaohongshu&labelColor=%23101419&color=%23FF2442"></a>
+  <a href="https://discord.gg/XB7jsKZQ"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FXB7jsKZQ%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=white&label=%20&color=7389D8&labelColor=6A7EC2"></a>
+  <a href="https://dlp3d.readthedocs.io/en/latest/index.html"><img src="https://img.shields.io/badge/Docs-EN-2C5282?style=flat&logo=readthedocs"></a>
+  <a href="https://dlp3d.readthedocs.io/zh-cn/latest/"><img src="https://img.shields.io/badge/Docs-%E4%B8%AD%E6%96%87-2C5282?style=flat&logo=readthedocs"></a>
+  <a href="https://github.com/dlp3d-ai/dlp3d.ai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dlp3d-ai/dlp3d.ai?style=flat"></a>
+</p>
+
+
+## Overview
+
 Digital Life Project 2 (DLP3D) is an open-source real-time framework that brings Large Language Models (LLMs) to life through expressive 3D avatars. Users converse naturally by voice, while characters respond on demand with unified audio, whole-body animation, and physics simulation directly in the browser. Characters are fully customizable in both appearance (3D models) and personality (character prompts) and readily adaptable to any LLM or text-to-speech (TTS) service. 
 <div align="center">
-    <img src="../assets/dlp3d.ai/poster_small.jpg"/>
+    <img src="../assets/dlp3d/poster_small.jpg"/>
 </div>
 
 
@@ -39,12 +64,19 @@ If you use this project in your research, please cite:
 
 # Digital Life Project (2024)
 
-The original Digital Life Project (DLP) introduces a framework utilizing language as the universal medium to build autonomous 3D characters, who are capable of engaging in social interactions and expressing with articulated body motions, thereby simulating life in a digital environment. This experimental work established the theoretical foundation for Digital Life Project 2 (DLP3D). For more information, visit the [project homepage](https://digital-life-project.com/).
-
 <div align="center">
     <img src="../assets/dlp/teaser.jpg"/>
 </div>
 
+<br/>
+
+<div align="center">
+
+**CVPR 2024, Seattle**
+
+</div>
+
+The original Digital Life Project (DLP) introduces a framework utilizing language as the universal medium to build autonomous 3D characters, who are capable of engaging in social interactions and expressing with articulated body motions, thereby simulating life in a digital environment. This experimental work established the theoretical foundation for Digital Life Project 2 (DLP3D). For more information, visit the [project homepage](https://digital-life-project.com/).
 
 ## Citation
 ```
