@@ -48,6 +48,13 @@ This organization contains the following key repositories:
 - [MotionDataViewer](https://github.com/dlp3d-ai/MotionDataViewer): visualizes and inspects motion data.
 
 
+## Get Started
+
+- Option 1: Check out **[Quick Start](https://dlp3d.readthedocs.io/en/latest/getting_started/quick_start.html)** to deploy your own DLP3D locally! You’ll need to provide your own API keys, but you’ll have complete freedom to modify, extend, and integrate the system into anything you like.
+
+- Option 2: Visit **[https://dlp3d.ai](https://dlp3d.ai/)** to to enjoy a ready-to-play hosted service — entirely free, including complimentary API access to selected providers (recommended for users in mainland China for the smoothest experience)! 
+
+
 ## Citations
 If you use this project in your research, please cite:
 ```
