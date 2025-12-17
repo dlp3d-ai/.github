@@ -19,11 +19,13 @@ Digital Life Project (DLP) is a research series bridging AI and 3D virtual embod
 
 <p align="center">
   <a href="https://dlp3d.ai/"><img src="https://img.shields.io/badge/Try%20it-dlp3d.ai-232C4B?style=flat"></a>
+  <a href="https://www.youtube.com/watch?v=cNEMW6IHKl8"><img src="https://img.shields.io/badge/%20Demo-YouTube-FF0000?style=flat&logo=youtube&logoColor=white"></a>
   <a href="https://x.com/dlp3d_ai"><img src="https://img.shields.io/badge/Digital%20Life%20Project-%232d2e30?style=flat&logo=x&labelColor=%23101419&color=%232d2e30"></a>
   <a href="https://www.xiaohongshu.com/user/profile/678df66a000000000d008dd1"><img src="https://img.shields.io/badge/Digital%20Life%20Project-%232d2e30?style=flat&logo=xiaohongshu&labelColor=%23101419&color=%23FF2442"></a>
-  <a href="https://discord.gg/XB7jsKZQ"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FXB7jsKZQ%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=white&label=%20&color=7389D8&labelColor=6A7EC2"></a>
+  <a href="https://discord.gg/XYXuBn9R8c"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FXYXuBn9R8c%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=white&label=%20&color=7389D8&labelColor=6A7EC2"></a>
+  <a href="https://deepwiki.com/dlp3d-ai/dlp3d.ai"><img src="https://deepwiki.com/badge.svg"></a>
   <a href="https://dlp3d.readthedocs.io/en/latest/index.html"><img src="https://img.shields.io/badge/Docs-EN-2C5282?style=flat&logo=readthedocs"></a>
-  <a href="https://dlp3d.readthedocs.io/zh-cn/latest/"><img src="https://img.shields.io/badge/Docs-%E4%B8%AD%E6%96%87-2C5282?style=flat&logo=readthedocs"></a>
+  <a href="https://dlp3d.readthedocs.io/zh-cn/latest/"><img src="https://img.shields.io/badge/文档-%E4%B8%AD%E6%96%87-2C5282?style=flat&logo=readthedocs"></a>
   <a href="https://github.com/dlp3d-ai/dlp3d.ai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dlp3d-ai/dlp3d.ai?style=flat"></a>
 </p>
 
@@ -58,13 +60,22 @@ This organization contains the following key repositories:
 ## Citations
 If you use this project in your research, please cite:
 ```
-@misc{dlp3d.ai,
-    author       = {Cai, Zhongang and Ren, Daxuan and Gao, Yang and Wei, Yukun and Zhou, Tongxi and Jang, Huimuk and Zeng, Haoyang and Lin, Zhengyu and Loy, Chen Change and Liu, Ziwei and Yang, Lei},
-    title        = {Digital Life Project 2: Open-source Autonomous 3D Characters on the Web},
-    howpublished = {SIGGRAPH Asia 2025 Real-Time Live!},
-    year         = {2025},
-    note         = {Live demonstration, Hong Kong, China}
-    year={2025}
+@inproceedings{dlp3d,
+    author    = {Cai, Zhongang and Ren, Daxuan and Gao, Yang and Wei, Yukun and Zhou, Tongxi and Lin, Zhengyu and Jang, Huimuk and Zeng, Haoyang and Loy, Chen Change and Liu, Ziwei and Yang, Lei},
+    title     = {Digital Life Project 2: Open-source Autonomous 3D Characters on the Web},
+    booktitle = {SIGGRAPH Asia 2025 Real-Time Live!},
+    year      = {2025},
+    pages     = {3},
+    isbn      = {9798400721359},
+    publisher = {Association for Computing Machinery},
+    address   = {New York, NY, USA},
+    url       = {https://doi.org/10.1145/3757375.3774342},
+    doi       = {10.1145/3757375.3774342},
+    abstract  = {Digital Life Project 2 (DLP2) presents an open-source real-time framework that brings Large Language Models (LLMs) to life through expressive 3D avatars. Users converse naturally by voice, while characters respond on demand with unified audio, whole-body animation, and physics simulation directly in the browser. At its core are: (1) an agentic orchestration of large and small LLMs that governs character behavior, supported by a memory system tracking emotional states and evolving relationships to enable context-dependent reactions; (2) a hybrid real-time pipeline that segments long LLM responses, performs parallel motion retrieval and audio-motion synchronization, and streams efficiently through a custom Protocol Buffers structure for low-latency playback of voice, motion, and expression; and (3) robust mechanisms for user interruption handling, adaptive buffering, and fault tolerance. Characters are fully customizable in both appearance (3D models) and personality (character prompts) and readily adaptable to any LLM or text-to-speech (TTS) service. DLP2 demonstrates how LLMs can be embodied in responsive 3D characters, offering a practical blueprint for real-time, emotionally adaptive digital interactions on the web.},
+    articleno = {3},
+    numpages  = {2},
+    location  = {Hong Kong Convention and Exhibition Centre, Hong Kong, Hong Kong},
+    series    = {SA '25}
 }
 ```
 
